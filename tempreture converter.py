@@ -1,5 +1,3 @@
-import os
-os.system("pip install pytemperature")
 import pytemperature
 
 unit = input("Farenheight or Celcius? (f/c): ").lower().strip()
