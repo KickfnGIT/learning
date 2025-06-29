@@ -1,0 +1,2 @@
+print(f"Important Shortcuts \nShift m: move cursor to middle of screen \n⭐ W: Move to the first letter of the next word \n⭐ B: jump back to previous letters first letter \n0: go back to the beginning of the paragraph/line \n⭐ #h/j/k/l: jump # number of lines \nCtrl W: Delete word before cursor \n⭐ Ctrl T: tab \nV i shift \": Get text wthin double quotes \n⭐ U: undo")
+a
