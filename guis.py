@@ -9,7 +9,7 @@ class MainWindow(QMainWindow):
         self.setWindowTitle("Learning")
         self.setGeometry(600,  350, 640, 480)
         self.setWindowIcon(QIcon("iconlearning.png"))
-        self.initUI()
+        self.InitColuums()
         pixmap = QPixmap("watermelon.png")
         label = QLabel("WaterMelon", self)
         label.setFont(QFont("Arial", 30))
@@ -27,7 +27,7 @@ class MainWindow(QMainWindow):
         label3.setGeometry(445, 12, 90, 60)
         label3.setPixmap(pixmap)
 
-    def initUI(self):
+    def InitColuums(self):
         centeral_widget = QWidget()
         self.setCentralWidget(centeral_widget)
         label1 = QLabel("#1")
@@ -59,3 +59,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
